@@ -48,6 +48,7 @@ jobs:
           polaris_prComment_enabled: 'true'
           polaris_prComment_severities: "Critical, High, Medium, Low"
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          BRIDGE_COVERITY_BUILD_COMMAND: 'npm install'
           # include_diagnostics: true
 
 #    - name: Save Logs
